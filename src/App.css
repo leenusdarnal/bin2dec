@@ -1,0 +1,47 @@
+.App{
+  height: 500px;
+  width: 500px;
+  border: 2px solid black;
+  margin: 0px auto;
+  padding: 0px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(12, 190, 116) 13%, rgba(7,174,96,0.3892878843157479) 52%, rgba(0,212,255,1) 100%);
+}
+.header{
+  margin: 0px auto;
+  padding: 0px 120px;
+}
+.Field{
+  padding: 10px 30px;
+  margin: 0px auto;
+  height: 150px;
+}
+.boxSize{
+  padding: 0px;
+  margin: 0px auto;
+  height: 60px;
+  width: 300px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px dotted rgba(0,212,255,1)
+}
+.convertButton{
+  height: 65px;
+  width: 80px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.title{
+  font-size: 25px;
+}
+.errorMsg{
+  color: red;
+  padding: 0px;
+  margin: 0px;
+}
+.boxSize:disabled{
+  background-color:#FFFFFF;
+}
+.boxSize:focus{
+  outline: none;
+}
